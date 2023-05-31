@@ -1,0 +1,54 @@
+/* base style */
+
+/* using special google fonts*/
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    background-color: black;
+    background-image: url('../images/background_top.jpg'), url('../images/background_bottom.jpg');
+    background-repeat: no-repeat, repeat-x;
+    background-position: 10px 0px, left bottom;
+    margin-bottom: 100px;
+}
+
+<style>body {
+    background-color: lightblue;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    width: 100%;
+    /* Add this line to occupy the full width */
+}
+
+.image-container img {
+    width: 400px;
+    /* Set the desired width */
+    height: 400px;
+    /* Set the desired height */
+}
+
+.big-title {
+    font-size: 36px;
+    /* Adjust the font size as desired */
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    /* Set the desired width for the container */
+    height: 300px;
+    /* Set the desired height for the container */
+
+}
+
+</style><footer><address><p>Author: Fatma nur Barcın <a href="mailto:fatmanur.barcin@gmail.com ">fatmanur.barcin@gmail.com</a><br>H-1117 Budapest,
+Csengery utca street 17</p></address></footer>
